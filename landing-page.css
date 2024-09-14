@@ -1,0 +1,222 @@
+.hr-line-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.hr-line{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    width: 90%;
+}
+
+.container-landing{
+    margin-top: 110px;
+}
+.container-h1-text{
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/*---------------------------LOGO + INFO--------------------------*/  
+
+.about-beerloga{
+    margin-top: 150px;
+}
+.grid-items-beerloga{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    color: white;
+}
+.logo-beerloga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-about-beerloga{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.beerloga-logo-img{
+    height: 100px;
+    width: 300px;
+}
+.our-menu{
+    background-color: black;
+    color: #ffe68c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    cursor: pointer;
+    border-color: #ffe68c;
+    border-width: 1px;
+    border-style: solid;
+    transition: 0.15s;
+}
+.our-menu:hover{
+    background-color: #ffe68c;
+    color: black;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.button-menu-beerloga{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*-------------------------------Grid items-------------------------------*/
+
+.grid-items{
+    color: white;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    align-items: center;
+}
+.first-special-item{
+    background-color: #1f1e1e;
+    height: 550px;
+    width: 300px;
+    transition: 0.15s;
+}
+.second-special-item{
+    background-color: #1f1e1e;
+    height: 550px;
+    width: 300px;
+    transition: 0.15s;
+}
+.third-special-item{
+    background-color: #1f1e1e;
+    height: 550px;
+    width: 300px;
+    transition: 0.15s;
+}
+#first-width-item:hover{
+    height: 570px;
+    background-color: #353535;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+#second-width-item:hover{
+    height: 570px;
+    background-color: #353535;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+#third-width-item:hover{
+    height: 570px;
+    background-color: #353535;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+.container-special-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.special-image{
+    background-color: gray;
+    height: 200px;
+    width: 280px;
+}
+
+.h1-special-text h1{
+    font-family: Verdana;
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 26px;
+}
+.paragraph-special-text{
+    padding-left: 15px;
+    font-size: 14px;
+    margin-top:  40px;
+    margin-bottom: 60px;
+    width: 200px;
+}
+
+.container-special-button{
+    
+}
+.see-more-btn{
+    background-color: #1f1e1e;
+    color: #ffe68c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    cursor: pointer;
+    border-color: #ffe68c;
+    border-width: 1px;
+    border-style: solid;
+    transition: 0.15s;
+}
+.see-more-btn:hover{
+    background-color: #ffe68c;
+    color: black;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.price-plate-item{
+    padding-top: 40px;
+    font-size: 16px;
+}
+
+
+/*-----------------Mobile Devices----------------------*/
+
+@media (max-width: 400px){
+    .container-landing{
+        margin-top: 40px;
+    }
+    .container-h1-text{
+        color: #fff;
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+
+    /*--------------------------Grid mobile items-----------------------------*/
+
+    .grid-items{
+        color: white;
+        display: grid;
+        grid-template-columns: 295px;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+}
+
+
+@media (max-width: 800px){
+    .container-landing{
+        margin-top: 70px;
+    }
+    .container-h1-text{
+        color: #fff;
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+
+        /*--------------------------Grid mobile items-----------------------------*/
+
+        .grid-items{
+            color: white;
+            display: grid;
+            grid-template-columns: 295px;
+            justify-content: center;
+            align-items: center;
+            row-gap: 20px;
+        }
+}
